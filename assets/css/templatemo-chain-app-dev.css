@@ -204,6 +204,13 @@ p {
   color: #afafaf;
 }
 
+h2 {
+  font-size: 15px !important;
+  line-height: 1;
+  line-height: 30px;
+  font-weight: 300;
+}
+
 img {
   width: 100%;
   overflow: hidden;
@@ -252,15 +259,16 @@ body {
   z-index: 2;
 }
 
-.section-heading h4 {
+.section-heading h3 {
   color: #2a2a2a;
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
-.section-heading h4 em {
+.section-heading h3 em {
   font-style: normal;
   color: #1aa79b;
 }
@@ -963,7 +971,7 @@ Banner Style
 
 .main-banner:after {
   content: "";
-  background-image: url(../images/slider-left-dec.png);
+  background-image: url(../images/slider-left-dec.webp);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -978,7 +986,7 @@ Banner Style
   margin-right: 15px;
 }
 
-.main-banner .left-content h2 {
+.main-banner .left-content h1 {
   z-index: 2;
   position: relative;
   font-weight: 700;
@@ -987,7 +995,7 @@ Banner Style
   margin-bottom: 20px;
 }
 
-.main-banner .left-content p {
+.main-banner .left-content h2 {
   margin-bottom: 45px;
   color: #2a2a2a;
   font-weight: 400;
@@ -1112,7 +1120,7 @@ Services Style
   background-position: center;
 }
 
-.service-item h4 {
+.service-item h3 {
   transition: all 0.3s;
   font-size: 20px;
   font-weight: 700;
@@ -1125,7 +1133,7 @@ Services Style
   margin-bottom: 20px;
 }
 
-.service-item:hover h4,
+.service-item:hover h3,
 .service-item:hover p,
 .service-item:hover .text-button a {
   color: #fff;
@@ -1202,7 +1210,7 @@ About Us
   margin-bottom: 30px;
 }
 
-.about-us .box-item h4 a {
+.about-us .box-item h3 a {
   font-size: 20px;
   font-weight: 700;
   margin-top: 8px;
@@ -1214,7 +1222,7 @@ About Us
   margin-bottom: 0px;
 }
 
-.about-us .box-item:hover h4 a {
+.about-us .box-item:hover h3 a {
   color: #1aa79b;
 }
 
@@ -1234,7 +1242,7 @@ About Us
 }
 
 .about-us:after {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/about-bg.webp);
   width: 777px;
   height: 1132px;
   content: "";
@@ -1271,7 +1279,7 @@ The Clients
   position: relative;
 }
 
-.menu .thumb h4 {
+.menu .thumb h3 {
   margin-bottom: 0px;
   font-size: 20px;
   color: #2a2a2a;
@@ -1305,7 +1313,7 @@ The Clients
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.the-clients .naccs .menu div.active h4,
+.the-clients .naccs .menu div.active h3,
 .the-clients .naccs .menu div.active i,
 .the-clients .naccs .menu div.active span.rating,
 .the-clients .naccs .menu div.active .thumb {
@@ -1380,7 +1388,7 @@ The Clients
   margin-left: 20px;
 }
 
-.the-clients .nacc .thumb .down-content .right-content h4 {
+.the-clients .nacc .thumb .down-content .right-content h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1454,7 +1462,7 @@ The Clients
   top: 30px;
 }
 
-.pricing-item-regular h4 {
+.pricing-item-regular h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -1531,7 +1539,7 @@ The Clients
   top: 30px;
 }
 
-.pricing-item-pro h4 {
+.pricing-item-pro h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -1587,7 +1595,7 @@ Free Quote
 }
 
 .free-quote .section-heading h6,
-.free-quote .section-heading h4 {
+.free-quote .section-heading h3 {
   color: #fff;
 }
 
@@ -1644,7 +1652,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg.webp);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1657,7 +1665,7 @@ footer .section-heading {
   margin-bottom: 45px;
 }
 
-footer .section-heading h4 {
+footer .section-heading h3 {
   line-height: 45px;
   color: #fff;
   margin-left: 13%;
@@ -1666,7 +1674,7 @@ footer .section-heading h4 {
 }
 
 footer #search {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 footer #search input::placeholder {
@@ -2015,10 +2023,10 @@ responsive
 */
 
 @media (max-width: 1200px) {
-  .header-area .main-nav .logo h4 {
+  .header-area .main-nav .logo h3 {
     font-size: 24px;
   }
-  .header-area .main-nav .logo h4 img {
+  .header-area .main-nav .logo h3 img {
     max-width: 25px;
     margin-left: 0px;
   }
@@ -2026,7 +2034,7 @@ responsive
     padding-left: 20px;
   }
 
-  .main-banner .left-content h2 {
+  .main-banner .left-content h1 {
     z-index: 2;
     position: relative;
     font-weight: 700;
@@ -2047,7 +2055,7 @@ responsive
   .main-banner:after {
     display: none;
   }
-  .main-banner .left-content h2 {
+  .main-banner .left-content h1 {
     color: #2a2a2a;
     margin-right: 0;
   }
@@ -2062,7 +2070,7 @@ responsive
   form#contact {
     overflow: hidden;
   }
-  .header-area .main-nav .logo h4 {
+  .header-area .main-nav .logo h3 {
     font-size: 20px;
   }
   .main-banner .left-content {
@@ -2151,7 +2159,7 @@ responsive
   .the-clients .naccs .menu div {
     text-align: center;
   }
-  footer .section-heading h4 {
+  footer .section-heading h3 {
     color: #2a2a2a;
   }
   footer #search {
@@ -2168,7 +2176,7 @@ responsive
     text-align: center;
     margin: 0 auto;
   }
-  .footer-widget h4 {
+  .footer-widget h3 {
     margin-top: 45px;
     margin-bottom: 20px;
   }
@@ -2187,10 +2195,10 @@ responsive
   footer #search input::placeholder {
     color: #2a2a2a;
   }
-  .header-area .main-nav .logo h4 {
+  .header-area .main-nav .logo h3 {
     font-size: 30px;
   }
-  .header-area .main-nav .logo h4 img {
+  .header-area .main-nav .logo h3 img {
     max-width: 30px;
     margin-left: 5px;
   }
@@ -2283,4 +2291,30 @@ responsive
   form#contact {
     padding: 30px;
   }
+}
+
+.media {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: white;
+}
+
+.media-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  align-items: center;
+}
+.contact-us p {
+  color: #fff;
 }
